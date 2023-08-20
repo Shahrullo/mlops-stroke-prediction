@@ -1,4 +1,4 @@
-FROM python:3.9.16-slim
+FROM python:3.10-slim
 
 RUN pip install --no-cache-dir pydantic==1.10.0 prefect==2.10.9
 
